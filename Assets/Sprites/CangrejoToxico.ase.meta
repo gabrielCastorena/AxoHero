@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 86627908aa49961f7846cf822346f0b1
+guid: 64220194bfcf277a39f4f3a06505b433
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -36,7 +36,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 18
+    spritePixelsToUnits: 32
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -98,7 +98,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 639076446740675710
+  platformSettingsDirtyTick: 639076424519726800
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -122,18 +122,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Sprite-0002 1
+  - name: Frame_0
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: -0.34375}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 320
-      height: 180
-    spriteID: af7073e4bacf1bc259a6c2480226b593
+      width: 44
+      height: 32
+    spriteID: 4029500c2850000cc81629af2423c7df
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,29 +142,116 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: Frame_1
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.34375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 44
+      width: 42
+      height: 32
+    spriteID: b5a05011ce139e1dc96bc18bf7d6ee4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 44}
+  - name: Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.34375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 4
+      width: 40
+      height: 32
+    spriteID: b6cf08d9668de7503822f8858793ddf8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 4}
+  - name: Frame_3
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.34375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 84
+      width: 42
+      height: 32
+    spriteID: c4fe4251668ba66e29500d7c962f0a1a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 84}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 680348363
+      value0: 1298494911
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Sprite-0002 1
+    name: CangrejoToxico
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: FondoLimpio
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 0
-        y: 0
-        width: 320
-        height: 180
-      spriteId: af7073e4bacf1bc259a6c2480226b593
+        x: 18
+        y: 11
+        width: 44
+        height: 32
+      spriteId: 4029500c2850000cc81629af2423c7df
+    - name: Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 11
+        width: 42
+        height: 32
+      spriteId: b5a05011ce139e1dc96bc18bf7d6ee4a
+    - name: Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 20
+        y: 11
+        width: 40
+        height: 32
+      spriteId: b6cf08d9668de7503822f8858793ddf8
+    - name: Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 11
+        width: 42
+        height: 32
+      spriteId: c4fe4251668ba66e29500d7c962f0a1a
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -219,5 +306,5 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 320, y: 180}
-  previousTextureSize: {x: 512, y: 256}
+  canvasSize: {x: 80, y: 60}
+  previousTextureSize: {x: 128, y: 128}

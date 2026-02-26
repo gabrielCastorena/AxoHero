@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5767831323455821401}
   - component: {fileID: 4437286291286133944}
   - component: {fileID: 5580772655362404992}
-  - component: {fileID: 8205199726610468066}
+  - component: {fileID: -3166650197744422596}
   m_Layer: 0
   m_Name: Concha
   m_TagString: Untagged
@@ -102,7 +102,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0.5
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -159,7 +159,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.3, y: 0.28}
   m_EdgeRadius: 0
---- !u!114 &8205199726610468066
+--- !u!114 &-3166650197744422596
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,12 +168,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3840116279229100446}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce8a4b32e38ab189b87f7c8a784336fd, type: 3}
+  m_Script: {fileID: 11500000, guid: 98a5f3517914f9fefba1932e0c035cc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  esBasura: 0
-  velocidadCaida: 3
-  limiteAbajo: -7
-  amplitudOscilacion: 1
-  velocidadOscilacion: 0.5
-  velocidadRotacion: 60
+  velocidadHorizontal: 2
+  amplitudFlote: 0.5
+  velocidadFlote: 2
